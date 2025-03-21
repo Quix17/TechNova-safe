@@ -1,29 +1,33 @@
-  	          **Quix17-Lizenz**
+# **Quix17-Lizenz**  
+**Copyright © 2025 TechNova / Sven Kunz**  
 
-        Copyright (c) [2025] [TechNova / Sven Kunz]
+## **1. Erlaubte Nutzung** ✅
+Du darfst den Code:
+- für **private und kommerzielle Zwecke** verwenden,
+- **ändern und anpassen** für eigene Projekte,
+- in andere Software **integrieren** (nur für persönlichen Gebrauch),
+- für **Bildungszwecke** nutzen.  
 
-        **Erlaubt:**
-        ✅ Nutzung des Codes für private und kommerzielle Zwecke
-        ✅ Änderung und Anpassung für eigene Projekte
-        ✅ Integration in andere Software für persönlichen Gebrauch
-        ✅ Verwendung zu Bildungszwecken
+## **2. Einschränkungen** 🚫 (Nur mit schriftlicher Erlaubnis)
+Es ist **nicht erlaubt**:  
+- den Code **weiterzuverbreiten** (auch in veränderter Form),
+- den Code **zu verkaufen** oder kommerziell durch Dritte nutzen zu lassen,
+- **Copyright-Hinweise zu entfernen**,
+- die Namen **"TechNova"** oder **"Quix17"** für abgeleitete Werke zu verwenden.  
 
-        **Nicht erlaubt ohne schriftliche Erlaubnis:**
-        🚫 Weiterverbreitung des Codes (auch verändert)
-        🚫 Verkauf oder kommerzielle Nutzung durch Dritte
-        🚫 Entfernung von Copyright-Hinweisen
-        🚫 Verwendung des Namens "TechNova" oder "Quix17" für abgeleitete Werke
+## **3. Bedingungen** 📌
+- Bei Nutzung des Codes muss ein **Verweis auf den ursprünglichen Autor** (Sven Kunz / Quix17) erhalten bleiben.  
+- **Änderungen müssen dokumentiert** werden.
+- Bei Integration in eigene Projekte muss diese **Lizenz beibehalten** werden.  
 
-        **Bedingungen:**
-        1. Bei Verwendung des Codes muss ein Verweis auf den ursprünglichen Autor (Sven Kunz / Quix17) erhalten bleiben.
-        2. Änderungen müssen dokumentiert werden.
-        3. Bei Integration in eigene Projekte muss diese Lizenz beigefügt werden.
+## **4. Haftungsausschluss** ⚠️
+DIE SOFTWARE WIRD **"WIE BESEHEN"** ZUR VERFÜGUNG GESTELLT, OHNE JEGLICHE GARANTIE.
+DER AUTOR HAFTET **NICHT FÜR SCHÄDEN**, DIE DURCH DIE NUTZUNG ENTSTEHEN.
+DIE VERWENDUNG ERFOLGT **AUF EIGENE GEFAHR**.  
 
-        **Haftungsausschluss:**
-        DIESER CODE WIRD OHNE JEGLICHE GARANTIE BEREITGESTELLT. DER AUTOR IST NICHT HAFTBAR FÜR SCHÄDEN, DIE DURCH DIE NUTZUNG ENTSTEHEN. DER             NUTZER TRÄGT DAS VOLLE RISIKO FÜR DIE VERWENDUNG DIESER SOFTWARE.
+## **5. Lizenzverletzung & Kündigung** ⛔
+Bei Verstoß gegen diese Lizenz **erlischt die Nutzungserlaubnis automatisch**.  
 
-        **Kündigung:**
-        Diese Lizenz erlischt automatisch, wenn eine der oben genannten Bedingungen nicht eingehalten wird.
-
-        **Kontakt für Genehmigungen:**
-        Anfragen zur kommerziellen Nutzung oder Weiterverbreitung richten Sie bitte an: support@technova.com
+## **6. Kontakt für Genehmigungen** 📩
+Für Anfragen zur **kommerziellen Nutzung oder Weiterverbreitung**:
+✉️ **support@technova.com**
