@@ -4,37 +4,36 @@
 **Erstellt von:** TechNova Team / Sven K  
 
 ## 🔐 Beschreibung  
-TechNovasafe ist ein sicherer und benutzerfreundlicher Passwort-Manager, der mit **Python** und **CustomTkinter** entwickelt wurde. Er ermöglicht das Speichern, Verwalten und Generieren von Passwörtern mit einer sicheren **Verschlüsselung (Fernet AES-256)**.  
+TechNovasafe ist ein sicherer Passwort-Manager mit **starker Verschlüsselung** und einer **benutzerfreundlichen GUI** (CustomTkinter). Er speichert Passwörter sicher und bietet einen **integrierten Passwort-Generator**.  
 
 ## ✨ Features  
-- **Master-Passwortschutz** mit sicherer Hashing-Technologie  
-- **Verschlüsselte Passwortverwaltung** mit SQLite  
-- **Benutzerfreundliche GUI** basierend auf CustomTkinter  
-- **Automatischer Passwort-Generator** mit einstellbaren Kriterien  
-- **System-Tray-Integration** für schnellen Zugriff  
-- **Kategorisierung von Passwörtern** zur besseren Organisation  
-- **Quiet Mode (Minimierung in den Tray)**  
-- **Hotkeys für schnellen Zugriff**  
+- **Master-Passwortschutz** mit **PBKDF2-HMAC-SHA256**  
+- **Passwort-Hashing** mit **SHA-256 + Salt**  
+- **AES-256 (Fernet) Verschlüsselung** für gespeicherte Passwörter  
+- **Datenbank mit SQLite** für Offline-Nutzung  
+- **Passwort-Generator** mit anpassbaren Regeln  
+- **Kategorisierung & Suche** für eine bessere Verwaltung  
+- **System-Tray-Integration & Quiet Mode**  
+- **Strg + Shift + Q** für schnellen Zugriff  
 
 ## 🛠 Installation  
-1. **Voraussetzungen:**  
-   - Python 3.x  
-   - `pip install -r requirements.txt`  
-
-2. **Starten:**  
+1. **Python 3.x installieren**  
+2. **Abhängigkeiten installieren:**  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+3. **Starten:**  
    ```bash
    python main.py
-   ```
+   ```  
 
 ## 🔒 Sicherheit  
-- **Verschlüsselung:** Alle Passwörter werden mit **Fernet (AES-256)** gespeichert.  
-- **Master-Passwort:** Muss mindestens **8 Zeichen** lang sein.  
-- **Passwort-Generator:** Unterstützt **Großbuchstaben, Zahlen und Sonderzeichen**.  
-
-## 📌 Hotkeys  
-- **Strg + Shift + Q** – Öffnet das Programm aus dem Tray  
+- **PBKDF2-HMAC-SHA256** zur sicheren Schlüsselableitung  
+- **SHA-256 + Salt** für das Master-Passwort  
+- **AES-256 (Fernet) für gespeicherte Passwörter**  
+- **Keine Cloud-Anbindung** – volle Datenhoheit für den Nutzer  
 
 ## 📧 Kontakt  
-- **Support:** [support@technova.com](mailto:support@technova.com)  
-- **Website:** [www.technova.com](https://www.technova.com)  
-- **GitHub:** [*Github*](https://github.com/Quix17/Password-Manager)  
+- **Support:** [support@technova.com] (leider momentan keiner)  
+- **Website:** [www.technova.com] (noch nicht erstellt)  
+- **GitHub:** [Github](https://github.com/Quix17/Password-Manager)  
