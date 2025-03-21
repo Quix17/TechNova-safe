@@ -20,6 +20,7 @@ import pystray
 from pystray import MenuItem as item
 from PIL import Image, ImageDraw
 import keyboard
+import webbrowser
 
 
 class TechNovasafe:
@@ -1370,7 +1371,7 @@ class TechNovasafe:
         version = ctk.CTkLabel(about_card,
                                text="Version 1.0 (Beta)",
                                font=ctk.CTkFont(size=12),
-                               text_color=self.colors["text_secondary"])  # Geändert von "accent" zu "text_secondary"
+                               text_color=self.colors["text_secondary"])
         version.pack(anchor="w", padx=20, pady=(0, 10))
 
         # Info section
@@ -1399,7 +1400,7 @@ class TechNovasafe:
         right_col = ctk.CTkFrame(info_frame, fg_color="transparent")
         right_col.pack(side="left", fill="y")
 
-        creator_value = ctk.CTkLabel(right_col, text="TechNova Team / Sven K",
+        creator_value = ctk.CTkLabel(right_col, text="TechNova Team / Sven Kunz",
                                      font=ctk.CTkFont(size=12),
                                      text_color=self.colors["text_secondary"])
         creator_value.pack(anchor="w", pady=2)
@@ -1409,7 +1410,7 @@ class TechNovasafe:
                                   text_color=self.colors["text_secondary"])
         lang_value.pack(anchor="w", pady=2)
 
-        license_value = ctk.CTkLabel(right_col, text="Open Source (MIT)",
+        license_value = ctk.CTkLabel(right_col, text="Quix17-Lizenz",
                                      font=ctk.CTkFont(size=12),
                                      text_color=self.colors["text_secondary"])
         license_value.pack(anchor="w", pady=2)
@@ -1429,12 +1430,87 @@ class TechNovasafe:
                                     text_color=self.colors["text_secondary"])
         contact_info.pack(anchor="w", pady=2)
 
-        # Add GitHub link as a button, using only known color keys
-        github_button = ctk.CTkButton(about_card,
+        # Funktion zum Öffnen der GitHub-Seite
+        def open_github():
+            webbrowser.open("https://github.com/Quix17/Password-Manager")
+
+        # Funktion zum Anzeigen des Lizenz-Fensters
+        def show_license():
+            license_window = ctk.CTkToplevel()
+            license_window.title("License Agreement")
+            license_window.geometry("600x400")
+            license_window.resizable(True, True)
+
+            # Stelle sicher, dass das Fenster im Vordergrund bleibt
+            license_window.transient(about_card.winfo_toplevel())
+            license_window.grab_set()
+
+            # Lizenztext
+            license_text = """
+        **Quix17-Lizenz**
+
+        Copyright (c) [2025] [TechNova / Sven Kunz]
+
+        **Erlaubt:**
+        ✅ Nutzung des Codes für private und kommerzielle Zwecke
+        ✅ Änderung und Anpassung für eigene Projekte
+        ✅ Integration in andere Software für persönlichen Gebrauch
+        ✅ Verwendung zu Bildungszwecken
+
+        **Nicht erlaubt ohne schriftliche Erlaubnis:**
+        🚫 Weiterverbreitung des Codes (auch verändert)
+        🚫 Verkauf oder kommerzielle Nutzung durch Dritte
+        🚫 Entfernung von Copyright-Hinweisen
+        🚫 Verwendung des Namens "TechNova" oder "Quix17" für abgeleitete Werke
+
+        **Bedingungen:**
+        1. Bei Verwendung des Codes muss ein Verweis auf den ursprünglichen Autor (Sven Kunz / Quix17) erhalten bleiben.
+        2. Änderungen müssen dokumentiert werden.
+        3. Bei Integration in eigene Projekte muss diese Lizenz beigefügt werden.
+
+        **Haftungsausschluss:**
+        DIESER CODE WIRD OHNE JEGLICHE GARANTIE BEREITGESTELLT. DER AUTOR IST NICHT HAFTBAR FÜR SCHÄDEN, DIE DURCH DIE NUTZUNG ENTSTEHEN. DER NUTZER TRÄGT DAS VOLLE RISIKO FÜR DIE VERWENDUNG DIESER SOFTWARE.
+
+        **Kündigung:**
+        Diese Lizenz erlischt automatisch, wenn eine der oben genannten Bedingungen nicht eingehalten wird.
+
+        **Kontakt für Genehmigungen:**
+        Anfragen zur kommerziellen Nutzung oder Weiterverbreitung richten Sie bitte an: support@technova.com
+        """
+
+            # Scrollbarer Textbereich für die Lizenz
+            license_frame = ctk.CTkFrame(license_window)
+            license_frame.pack(fill="both", expand=True, padx=20, pady=20)
+
+            license_textbox = ctk.CTkTextbox(license_frame, wrap="word")
+            license_textbox.pack(fill="both", expand=True)
+            license_textbox.insert("1.0", license_text)
+            license_textbox.configure(state="disabled")  # Schreibgeschützt machen
+
+            # OK-Button zum Schließen
+            ok_button = ctk.CTkButton(license_window, text="I Understand",
+                                      command=license_window.destroy)
+            ok_button.pack(pady=(0, 20))
+
+        # Buttons frame für zwei Buttons nebeneinander
+        buttons_frame = ctk.CTkFrame(about_card, fg_color="transparent")
+        buttons_frame.pack(fill="x", padx=20, pady=(10, 5))
+
+        github_button = ctk.CTkButton(buttons_frame,
                                       text="View on GitHub",
                                       font=ctk.CTkFont(size=12),
-                                      height=28)  # Keine benutzerdefinierten Farben
-        github_button.pack(padx=20, pady=(10, 5))
+                                      height=28,
+                                      width=150,
+                                      command=open_github)
+        github_button.pack(side="left", padx=(0, 10))
+
+        license_button = ctk.CTkButton(buttons_frame,
+                                       text="View License",
+                                       font=ctk.CTkFont(size=12),
+                                       height=28,
+                                       width=150,
+                                       command=show_license)
+        license_button.pack(side="left")
 
         # Copyright at bottom
         copyright = ctk.CTkLabel(about_card,
