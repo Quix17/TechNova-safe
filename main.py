@@ -1,3 +1,7 @@
+# Copyright (c) 2025 TechNova / Sven Kunz
+# Nutzung erlaubt, aber Weiterverbreitung und Verkauf nur mit Erlaubnis.
+# Siehe LICENSE-Datei für weitere Details.
+
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 import sqlite3
