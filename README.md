@@ -33,23 +33,6 @@ TechNovasafe ist ein sicherer Passwort-Manager mit **starker Verschlüsselung** 
 - **AES-256 (Fernet) für gespeicherte Passwörter**  
 - **Keine Cloud-Anbindung** – volle Datenhoheit für den Nutzer  
 
-
-### **Quix17-Lizenz**  
-
-Copyright (c) [2025] [TechNova / Sven Kunz]  
-
-**Erlaubt:**  
-✅ Nutzung des Codes für private und kommerzielle Zwecke  
-✅ Änderung und Anpassung für eigene Projekte  
-
-**Nicht erlaubt ohne schriftliche Erlaubnis:**  
-🚫 Weiterverbreitung des Codes (auch verändert)  
-🚫 Verkauf oder kommerzielle Nutzung durch Dritte  
-
-**Haftungsausschluss:**  
-DIESER CODE WIRD OHNE JEGLICHE GARANTIE BEREITGESTELLT. DER AUTOR IST NICHT HAFTBAR FÜR SCHÄDEN, DIE DURCH DIE NUTZUNG ENTSTEHEN.  
-
-
 ## 📧 Kontakt  
 - **Support:** [support@technova.com] (leider momentan keiner)  
 - **Website:** [www.technova.com] (noch nicht erstellt)  
