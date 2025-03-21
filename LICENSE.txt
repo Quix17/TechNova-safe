@@ -1,14 +1,29 @@
-### **Quix17-Lizenz**  
+  	          **Quix17-Lizenz**
 
-Copyright (c) [2025] [TechNova / Sven Kunz]  
+        Copyright (c) [2025] [TechNova / Sven Kunz]
 
-**Erlaubt:**  
-✅ Nutzung des Codes für private und kommerzielle Zwecke  
-✅ Änderung und Anpassung für eigene Projekte  
+        **Erlaubt:**
+        ✅ Nutzung des Codes für private und kommerzielle Zwecke
+        ✅ Änderung und Anpassung für eigene Projekte
+        ✅ Integration in andere Software für persönlichen Gebrauch
+        ✅ Verwendung zu Bildungszwecken
 
-**Nicht erlaubt ohne schriftliche Erlaubnis:**  
-🚫 Weiterverbreitung des Codes (auch verändert)  
-🚫 Verkauf oder kommerzielle Nutzung durch Dritte  
+        **Nicht erlaubt ohne schriftliche Erlaubnis:**
+        🚫 Weiterverbreitung des Codes (auch verändert)
+        🚫 Verkauf oder kommerzielle Nutzung durch Dritte
+        🚫 Entfernung von Copyright-Hinweisen
+        🚫 Verwendung des Namens "TechNova" oder "Quix17" für abgeleitete Werke
 
-**Haftungsausschluss:**  
-DIESER CODE WIRD OHNE JEGLICHE GARANTIE BEREITGESTELLT. DER AUTOR IST NICHT HAFTBAR FÜR SCHÄDEN, DIE DURCH DIE NUTZUNG ENTSTEHEN.
+        **Bedingungen:**
+        1. Bei Verwendung des Codes muss ein Verweis auf den ursprünglichen Autor (Sven Kunz / Quix17) erhalten bleiben.
+        2. Änderungen müssen dokumentiert werden.
+        3. Bei Integration in eigene Projekte muss diese Lizenz beigefügt werden.
+
+        **Haftungsausschluss:**
+        DIESER CODE WIRD OHNE JEGLICHE GARANTIE BEREITGESTELLT. DER AUTOR IST NICHT HAFTBAR FÜR SCHÄDEN, DIE DURCH DIE NUTZUNG ENTSTEHEN. DER             NUTZER TRÄGT DAS VOLLE RISIKO FÜR DIE VERWENDUNG DIESER SOFTWARE.
+
+        **Kündigung:**
+        Diese Lizenz erlischt automatisch, wenn eine der oben genannten Bedingungen nicht eingehalten wird.
+
+        **Kontakt für Genehmigungen:**
+        Anfragen zur kommerziellen Nutzung oder Weiterverbreitung richten Sie bitte an: support@technova.com
