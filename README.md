@@ -36,5 +36,5 @@ TechNovasafe ist ein sicherer Passwort-Manager mit **starker Verschlüsselung** 
 ## 📧 Kontakt
 - **Support:** [support@technova.com](mailto:sup.technova@gmail.com)
 - **Email:** [Technova.Ki](mailto:Technova.Ki@gmail.com)
-- **Website:** [www.technova.com] (noch nicht erstellt)  
+- **Website:** [] (noch nicht erstellt)  
 - **GitHub:** [Github](https://github.com/Quix17/Password-Manager)  
