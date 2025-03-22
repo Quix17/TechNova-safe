@@ -1,0 +1,6 @@
+pyperclip==1.8.2
+cryptography==42.0.5
+customtkinter==5.2.2
+pystray==0.19.5
+Pillow==10.2.0
+keyboard==0.13.5
