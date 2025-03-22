@@ -1,3 +1,4 @@
+python 3.x
 pyperclip==1.8.2
 cryptography==42.0.5
 customtkinter==5.2.2
