@@ -1,5 +1,5 @@
 # TechNovasafe – Passwort-Manager  
-**Version:** 1.0 (Beta)  
+**Version:** 1.3.2fc (Beta)  
 **Lizenz:** MIT  
 **Erstellt von:** TechNova Team / Sven K  
 
@@ -15,6 +15,9 @@ TechNovasafe ist ein sicherer Passwort-Manager mit **starker Verschlüsselung** 
 - **Kategorisierung & Suche** für eine bessere Verwaltung  
 - **System-Tray-Integration & Quiet Mode**  
 - **Strg + Shift + Q** für schnellen Zugriff  
+- **Datenbank sicher gespeichert**  
+- **Passwort Import/Export** – Einfache Verwaltung und Übertragung von Passwörtern.  
+- **Noch mehr in der App!** – Entdecke weitere Funktionen und Infos direkt in der App!
 
 ## 🛠 Installation  
 1. **Python 3.x installieren**  
